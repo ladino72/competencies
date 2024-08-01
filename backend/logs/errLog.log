@@ -1,0 +1,235 @@
+20230623	15:41:50	20239e55-a3fc-495a-8275-35fa5cccf11e	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230623	15:44:56	8f7b36ee-2f9e-4fa0-ac2b-c687d3a833bf	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230623	15:47:03	ad2e56dc-73e7-4467-ab80-1aa12b278ee2	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:49:42	6bc30d30-bac3-44ac-ae49-f479f224934e	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:51:21	78b4bbad-4cbd-43e5-8a9d-d8b91de06170	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:52:28	e55feda6-0f06-4ba2-93d1-1ed25ff567db	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:52:56	92d583f0-5c45-4df3-bedb-ead1ef34724f	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:53:37	d7ec29cb-dabf-4e19-9989-46a7275f0843	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:53:49	edc7762e-2193-49c3-b06f-53f0b6acf753	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:53:52	fc979192-76f3-46ca-9afa-0f6edafe65e2	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:56:13	6c4f3964-a00c-4120-b87a-d705239d6857	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	15:57:46	3a1d2f62-3c93-4f13-9995-abbb310ddd85	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:00:03	e260122f-92e1-4fd7-9259-6d88ca9e9bc7	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:01:43	5f822a2a-fff3-468f-bcd6-a5d55faa6cef	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:02:59	47186fab-b370-409c-af2b-d5b8fed000b3	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:04:44	d3bb6c9c-cd35-4790-8eb5-68afcb5bdc8c	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:04:46	2ad86e7e-b531-4411-884b-473029d6ccfb	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:04:47	555814af-6697-42e8-814d-ef3450d65454	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:04:49	82b4250d-cc45-4691-a2fa-b6a49948c002	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:04:51	507227db-8d3f-4e95-a0b5-6d6e76b3fdbd	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:13:03	4d4f70f5-70bd-4183-9893-ca86c90c39af	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:14:07	4170cb87-09df-4dab-b835-b8a85150498d	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:20:25	200d5d21-574e-4385-9f25-bf1705929953	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:21:26	46023f31-acad-447d-a23d-2a4d0bf54eea	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:23:15	0f7c30b1-884a-4a05-929f-5d83c257bf8c	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:24:23	aabcdaad-ad49-4151-ba36-98a830659c5f	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:25:17	1a77bb1c-3c27-4920-b85f-e9fe68589bdd	TypeError: Cannot read property 'competencies' of undefined	PATCH	/grades	undefined
+20230623	16:26:40	8cdeee05-7adb-487e-a624-8ec130751628	TypeError: Cannot read property 'competencies' of null	PATCH	/grades	undefined
+20230623	16:41:06	e46e1386-9988-4686-b3a0-ac968f1ad11a	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230623	16:42:39	81d7e936-56f4-445a-8ea6-db2da7d7c635	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230623	16:42:53	deccf919-90a8-4aa9-8b54-6a1ceeff584f	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230623	16:42:59	3473c332-2b30-4135-9a40-7972a3fee80c	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230624	16:40:32	d30eb581-9716-4661-a01b-a469f95964b3	SyntaxError: Unexpected token } in JSON at position 187	POST	/signup	undefined
+20230624	16:41:50	135a4482-14da-47fb-ae6d-16a57cb30088	SyntaxError: Unexpected token } in JSON at position 189	POST	/signup	undefined
+20230624	16:52:43	226c3e4c-26df-488e-a7cc-ed65ef17dd27	ReferenceError: Grade is not defined	POST	/signup	undefined
+20230624	16:53:42	70c32e22-833e-4f70-982d-69f2f9135c54	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	17:02:05	7ac30075-5b55-46fa-83c5-d7df091fae04	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	17:10:29	a57c4f99-1f2f-4f68-8d57-40d2b67dcf0b	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	17:11:12	0b3dd718-e856-477d-9982-f635568ab511	ValidationError: Grade validation failed: subject: Path `subject` is required., groupNumber: Path `groupNumber` is required.	POST	/signup	undefined
+20230624	17:13:07	9e33a36d-4895-458f-a61f-f8f88090f304	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	17:27:51	9577edd3-d402-4610-a6d9-c8f293e51359	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_02@hotmail.com" }	POST	/signup	undefined
+20230624	17:28:37	5777e3df-cf05-4845-a0ba-6d29bf65fad2	ValidationError: Grade validation failed: subject: Path `subject` is required.	POST	/signup	undefined
+20230624	17:29:17	fda8175a-c8a1-49cc-9ebd-e0aa425cf27f	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_02@hotmail.com" }	POST	/signup	undefined
+20230624	17:30:04	4d39f570-9b58-4d48-849b-c45bb478aaca	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_02@hotmail.com" }	POST	/signup	undefined
+20230624	17:30:23	07220cd2-94dd-4752-bd02-4dabbaa50b04	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_02@hotmail.com" }	POST	/signup	undefined
+20230624	17:30:56	73da30b4-a078-48aa-88dd-d50068d8ce8b	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230624	17:34:05	9e0fd008-1c1d-40ba-bf92-8378c8cb6096	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230624	17:38:53	4a77aad6-5e94-4cca-b866-f7a57bbd417e	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	18:50:39	bc1d8dae-87fa-4ed9-a5e8-f56ae55ec5f9	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	18:50:59	89dbf285-4f6a-403d-b8a9-52bb0b44649b	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	18:51:15	5042f190-812b-4557-8d76-3f0b4b85c74e	TypeError: Grades.create(...).lean is not a function	POST	/signup	undefined
+20230624	18:51:50	cac366f7-7a30-43ef-9506-4b1ce7a51c47	TypeError: Grades.create(...).lean is not a function	POST	/signup	undefined
+20230624	18:52:59	9cf0e57f-326c-4fcf-84e3-41fb35bc09c2	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_03@hotmail.com" }	POST	/signup	undefined
+20230624	18:54:37	c413f684-6d90-4f25-8f73-0835272c5fe6	TypeError: Grades.create(...).lean is not a function	POST	/signup	undefined
+20230624	18:55:26	23305710-af43-4de0-92b7-e51b8f591a2d	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_03@hotmail.com" }	POST	/signup	undefined
+20230624	18:59:07	f50a2b86-a125-4d0d-8b97-d0fb37a24892	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_01@hotmail.com" }	POST	/signup	undefined
+20230624	19:06:13	d87690bf-8957-4ee7-8ab5-39671a057f72	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230624	20:24:54	d5644177-4400-4993-9950-9926648d4b56	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230624	20:27:06	3d27af24-fd02-4356-83dc-46d62f9ea607	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	10:47:51	a3207309-4f35-4959-be04-d0c517c623c8	SyntaxError: Unexpected token } in JSON at position 157	POST	/signup	undefined
+20230625	10:54:54	334ecebe-ee6d-43d8-a313-a3c57ff5f272	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "teacher_03@hotmail.com" }	POST	/signup	undefined
+20230625	10:59:24	2eb44d58-1951-42f3-bc37-4dd29ee530d2	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "student_02@hotmail.com" }	POST	/signup	undefined
+20230625	11:40:09	b9d22f2d-5e2d-4264-8164-42ef32d886b9	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	11:40:59	82ea5348-c139-4dfe-917f-e1d02fed3f73	ReferenceError: rq is not defined	GET	/users	undefined
+20230625	11:41:09	2ba14e5c-b159-44c4-92ef-7c93fe1a7fb4	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	11:42:45	6db27be7-a820-49e5-bb37-82c7281d4859	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:43:21	3eb34534-b205-4b1c-ace8-f551730b468b	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:43:38	b60ebce9-9cc5-4a22-9d03-d8e9439f5444	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	11:43:48	e47be2cf-b98d-46c8-b1d8-d76cc85c2a9e	JsonWebTokenError: invalid token	GET	/users	undefined
+20230625	11:44:17	481d7829-c87f-47c0-96d5-7c133c2c07df	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230625	11:44:29	b5168f76-95e3-4c38-af36-acdb680ea25b	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230625	11:45:35	506ff305-b601-4042-a678-18473ca3d7ea	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:45:56	b53773cb-d666-42fb-9ee9-7191587fd9f1	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:46:18	f0e54feb-fbf0-4723-a2aa-fae2191f171e	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:48:43	872fe6f9-e8a9-4dc4-83a8-a21255b307c0	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:52:39	1668f48f-03ed-481e-a3bf-4f174a9d7a34	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:53:48	4c2205a4-df1f-40ab-bd74-681f92f078c0	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:54:10	2cd55290-126a-40ec-9955-143d74606e1f	JsonWebTokenError: invalid token	GET	/users	undefined
+20230625	11:54:39	e8a7ee5a-db1e-40e4-9545-da89a3273097	JsonWebTokenError: invalid token	GET	/users	undefined
+20230625	11:58:46	05e0efe0-64d9-400c-87ae-5f37f4bebdce	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	11:58:59	4f5ac822-7c5b-42b9-88f9-1732417f6e06	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:59:18	b7d0ca79-2cec-420a-a149-631132cfe1a2	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	11:59:26	b2ea6f49-eac2-49a0-84c1-18916e6b1296	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	12:00:30	14cd9b5c-3c8a-4c54-9b38-b97e94e85946	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230625	12:02:09	18e89c16-4788-432e-ac37-bb015ec803a7	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230625	13:45:56	7eac7817-8040-4932-8f7d-f3017e1d31ed	ReferenceError: Subject is not defined	GET	/courses	undefined
+20230626	11:00:40	6ec0797e-7c2e-463a-ba44-d4aba24ddb82	TypeError: undefined is not a promise	GET	/courses/TheoPhys_02/04	undefined
+20230626	11:05:28	1fe3db7d-35c0-4b53-abd5-e0af2fbe0f86	ReferenceError: curso is not defined	GET	/courses/TheoPhys_02/04	undefined
+20230626	11:14:06	92dd7818-e99a-4331-aa97-cc54db0a8f17	TypeError: Cannot read property '_id' of undefined	GET	/courses/TheoPhys_02/04	undefined
+20230626	11:15:22	03d81570-2db9-4023-a158-049fd7e9c96f	TypeError: Cannot read property 'username' of null	GET	/courses/TheoPhys_02/04	undefined
+20230626	12:05:02	fdc68895-62a3-4728-95ef-06d167ae4480	ReferenceError: curso is not defined	GET	/courses	undefined
+20230626	13:31:55	9ea4eb7a-ec80-450e-a4f2-a3eb94177e30	ReferenceError: Cannot access 'Course' before initialization	GET	/courses/TheoPhys_02/04	undefined
+20230626	13:32:16	f392f3f3-6695-4787-ad4c-2f30ad686d2a	ReferenceError: Cannot access 'Course' before initialization	GET	/courses/TheoPhys_02/04	undefined
+20230626	13:32:53	d36521b5-eb68-42e2-880d-422cbf3f801b	ReferenceError: Cannot access 'Course' before initialization	GET	/courses/TheoPhys_02/04	undefined
+20230626	15:17:25	b84ec0b5-ea9a-491b-9ea8-ff705a60d967	ReferenceError: Id is not defined	GET	/grades/64986137089fda9a0788f753/LabPhys_02/02	undefined
+20230626	15:17:59	d2d15006-0f2b-462c-8ff2-057a8f197f35	ReferenceError: Id is not defined	GET	/grades/64986137089fda9a0788f753/LabPhys_02/02	undefined
+20230626	15:35:48	bd537826-35fc-430e-974f-4174d61ac13f	CastError: Cast to ObjectId failed for value "{ subject: 'LabPhys_02', groupNumber: '02' }" (type Object) at path "_id" for model "Course"	GET	/grades/64986137089fda9a0788f753/LabPhys_02/02	undefined
+20230626	15:52:53	313c3144-9cef-4c11-846b-f0d0c90dee44	ReferenceError: teacher is not defined	GET	/grades/64986137089fda9a0788f753/LabPhys_02/02	undefined
+20230626	19:51:22	d012f762-b536-4420-9837-4553142ba374	ReferenceError: tyepof is not defined	GET	/grades/64986137089fda9a0788f753/LabPhys_02/02	undefined
+20230627	10:43:49	3863e009-44fe-418f-a46c-fe63185b4c11	TypeError: Cannot read property 'teacher' of undefined	GET	/grades	undefined
+20230627	10:45:01	a66069b7-8b7a-41dd-b468-a74fec93007e	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230627	11:51:57	858a0cf3-2591-4507-84b8-43e933705dff	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230627	11:53:36	80a94429-a7ba-4742-b4f5-8860a8c60258	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230627	11:53:53	be96314b-7c99-49e4-b57e-c8279a7ef250	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230627	11:54:55	7f580a62-2cf8-4ccc-a772-39c2f5158cf2	TypeError: Cannot read property 'username' of null	GET	/grades	undefined
+20230627	11:59:38	c5b6b101-0908-4be4-a151-72d353c57d60	CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"	GET	/grades	undefined
+20230628	17:12:29	36f71655-d9da-48df-af1e-ca7dd96b6e5c	TypeError: Cannot read properties of undefined (reading 'username')	GET	/courses/TheoPhys_01	undefined
+20230628	17:13:44	db5afe46-b8a6-4165-a04c-f6a85b46076c	TypeError: Cannot read properties of undefined (reading 'username')	GET	/courses/TheoPhys_01	undefined
+20230628	17:27:42	e0600e17-c7f4-4ebd-99da-f07f0d2675a3	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230628	17:31:03	bde1236f-df96-4bb2-b3da-1243e885c0a8	TypeError: option expires is invalid	POST	/signup	undefined
+20230628	17:33:19	b6be2a8a-50d6-4bc5-b3a6-b2af5062fc1a	TypeError: option expires is invalid	POST	/signup	undefined
+20230628	17:34:59	e9b31349-e37d-45d8-a3fa-36c4615245d0	TypeError: option expires is invalid	POST	/signup	undefined
+20230628	17:38:40	68a0bf59-5e33-405c-a75a-d4ab803e3ad6	MongoServerError: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "admin@hotmail.com" }	POST	/signup	undefined
+20230628	17:39:07	d0c01dcc-e5a0-4410-9688-32321700a421	TypeError: option expires is invalid	POST	/signup	undefined
+20230628	17:39:54	bb36a979-89bc-46c9-a7fa-48fc73526180	TypeError: option expires is invalid	POST	/signup	undefined
+20230628	17:41:42	f1ea20ee-df23-47a4-acb6-9bbd058e8c73	TypeError: option expires is invalid	POST	/signup	undefined
+20230628	17:43:05	6f093d5d-8a6c-4a1f-b98e-80d325b6863a	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20230629	18:30:29	da3f8ab2-da76-4db5-97e4-5eddcc582f4f	SyntaxError: Unexpected string in JSON at position 49	POST	/courses	undefined
+20230629	19:29:45	89c46e5c-a65c-40c3-a5ec-761bc328632f	ReferenceError: Id is not defined	POST	/grades/getgrades	undefined
+20230812	09:40:26	9f9a755c-7ebf-42b4-b2c7-8c00121a46ed	ReferenceError: rq is not defined	GET	/users	undefined
+20230918	20:01:08	5b777233-d4bd-40db-b2fe-ab7f7eedcbc9	ReferenceError: rq is not defined	GET	/users	undefined
+20230918	20:04:03	4b31d1b8-2a4f-456f-a3d7-cecb54c92531	ReferenceError: rq is not defined	GET	/users	undefined
+20230918	20:13:28	06b537e2-ae33-4ef9-80b8-88d32fb93d39	ReferenceError: rq is not defined	GET	/users	undefined
+20230918	20:13:33	65209f28-9aa4-4742-9672-9dc19cddb9a7	ReferenceError: rq is not defined	GET	/users	undefined
+20230918	20:18:27	a23fbbe1-d409-495c-8c48-c4e506d16800	TypeError: Cannot read properties of null (reading 'username')	PATCH	/grades	undefined
+20231111	17:08:08	7d73655b-64ac-4289-8d11-811575aa34e8	SyntaxError: Unexpected token O in JSON at position 80	POST	/courses/	undefined
+20231111	21:47:53	f8ff334f-5af7-46f1-bc6e-b0dcc09b3923	SyntaxError: Unexpected token { in JSON at position 5	PUT	/65503917c62ed233a7261a55/update	undefined
+20231118	13:06:29	02183d35-f3bb-4c08-9f9d-529651e40648	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	13:07:31	4e3667a1-b5ee-43ea-bdbc-921acc7867e6	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	13:12:09	b68087b0-f056-453e-85fe-2fe12755e9e7	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	13:29:18	2b06f69e-451f-4bfc-9a50-d892a4179c4c	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	14:06:19	fa03b25b-8a42-433b-91aa-266dd6541483	ReferenceError: ValidationError is not defined	GET	/statistics/655199f48735bdd14a9b0544/CL/n1/n2/n3/average	undefined
+20231118	14:47:57	65abf4bf-6e28-432e-85a5-7b7cbeff0f80	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	14:54:46	8e14f82c-0933-4a63-9371-bbc2c76f9b48	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	14:58:00	0a328984-f19b-437a-b672-a265af1526f9	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	15:00:38	d7b56a51-2df1-4360-8c0f-f40623d2aa7a	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231118	15:08:59	3af7f3df-39ac-4786-bf07-7feda32b9be6	ReferenceError: ValidationError is not defined	GET	/statistics/6551829dac5381dc7c8ddcf0/655199f48735bdd14a9b0544/65524827da6d9572f2505e09/CL/n1/average	undefined
+20231122	21:59:58	ae8a6068-1817-456d-b2b3-b4506f78b546	SyntaxError: Unexpected token } in JSON at position 182	POST	/signup_	undefined
+20231122	22:00:46	20862ea1-0dcf-49b4-85a0-36e8ce3581e8	SyntaxError: Unexpected token } in JSON at position 180	POST	/signup_	undefined
+20231229	14:54:45	9915f3e3-8e85-41b0-aaf2-3d330907c6ac	UnauthorizedError: No authorization token was found	GET	/api/protected	undefined
+20231229	14:56:06	3c453614-6300-4463-8692-e38d7225c211	UnauthorizedError: invalid token	GET	/api/protected	undefined
+20231229	14:56:47	d4c08b49-dc59-461c-b35a-3e0cf4ccbd2e	UnauthorizedError: invalid token	GET	/api/protected	undefined
+20231229	15:14:15	7ec513dc-edb9-47ca-9e12-be88f0cfae5d	UnauthorizedError: No authorization token was found	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2/6562796ee9dad979a85f32e7/1	undefined
+20231229	15:14:29	a5c28e00-8904-428e-9e96-40c978dcd9ef	UnauthorizedError: No authorization token was found	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2/6562796ee9dad979a85f32e7/1	undefined
+20231229	15:15:59	a424f2b4-50c6-41e0-aaf9-fdaf36807a22	UnauthorizedError: invalid signature	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2/6562796ee9dad979a85f32e7/1	undefined
+20231229	15:16:28	bd3839a8-e04a-431f-9b58-d12eb6021a09	UnauthorizedError: invalid signature	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2/6562796ee9dad979a85f32e7/1	undefined
+20231229	15:35:15	bd848ff1-55fc-4e4f-8c1a-4ac2a84dbed1	UnauthorizedError: invalid signature	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2/6562796ee9dad979a85f32e7/1	undefined
+20231229	15:38:59	7085ffbe-6284-4c9e-a0e5-5e0e824a6730	UnauthorizedError: No authorization token was found	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2/2	undefined
+20231229	15:39:35	999f08b6-fc8b-44b1-b53f-aea0006757bc	UnauthorizedError: No authorization token was found	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2	undefined
+20231229	15:39:36	aad35ebe-5d23-4fd2-a4f6-65e6936b0eb4	UnauthorizedError: No authorization token was found	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2	undefined
+20231229	15:39:37	6029be75-c737-4238-b385-dc0c877871d3	UnauthorizedError: No authorization token was found	GET	/activities/teacher/65627718e9dad979a85f32c2/65627904e9dad979a85f32e2	undefined
+20231229	15:58:04	18f42cc2-a1ea-41d4-9117-ff899bc44f8c	UnauthorizedError: No authorization token was found	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	15:58:05	9f899eea-1022-40be-8f4e-1d99acd23f0b	UnauthorizedError: No authorization token was found	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	15:58:06	4cce844d-0073-4dee-bbf0-243e42066a74	UnauthorizedError: No authorization token was found	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	15:58:06	10ed6c9d-7d68-44f9-a9b5-904a7977b406	UnauthorizedError: No authorization token was found	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	15:58:07	8b26a5ec-9d3c-4181-8753-7c7052b910bd	UnauthorizedError: No authorization token was found	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	15:58:39	a2f95371-1045-4cd1-8950-6cb26492fdde	UnauthorizedError: No authorization token was found	GET	/courses/courses-and-groups	undefined
+20231229	15:58:40	ccd13d96-1c63-40e0-8f0e-08a5720c3b7e	UnauthorizedError: No authorization token was found	GET	/courses/courses-and-groups	undefined
+20231229	15:58:41	e8517ae2-11af-4d82-989e-c9010dc2d047	UnauthorizedError: No authorization token was found	GET	/courses/courses-and-groups	undefined
+20231229	15:58:41	348eb5f3-2d59-4bf9-b74c-d04deb18fcee	UnauthorizedError: No authorization token was found	GET	/courses/courses-and-groups	undefined
+20231229	15:58:42	55025f78-36a8-41ff-a97b-7bad6e58a16c	UnauthorizedError: No authorization token was found	GET	/courses/courses-and-groups	undefined
+20231229	16:00:17	0f97109e-7f6b-4b5a-a2ff-e760bc5389d7	UnauthorizedError: No authorization token was found	GET	/api/protected	undefined
+20231229	16:00:18	f8a19d75-d5c5-4e75-9b5f-3192aa614881	UnauthorizedError: No authorization token was found	GET	/api/protected	undefined
+20231229	16:00:19	388e02ff-4e14-45c0-ad95-51f8b2e608bf	UnauthorizedError: No authorization token was found	GET	/api/protected	undefined
+20231229	16:00:37	4a608a1f-1ae5-4368-a8b5-cce92d05a267	UnauthorizedError: No authorization token was found	GET	/api/protected	undefined
+20231229	16:00:38	f5bd191a-4159-488d-9c01-f5651784bef2	UnauthorizedError: No authorization token was found	GET	/api/protected	undefined
+20231229	16:04:41	d9de3a33-7a19-4122-9b23-dc5350c4dae8	UnauthorizedError: No authorization token was found	POST	/loginN	undefined
+20231229	16:04:42	a531dc6b-230f-468d-9eb6-20e60e6a2ee5	UnauthorizedError: No authorization token was found	POST	/loginN	undefined
+20231229	16:06:48	8475356b-cf67-4157-bc96-76c59b9a523f	UnauthorizedError: No authorization token was found	POST	/loginN	undefined
+20231229	16:30:10	767d0b7c-b4ca-46f7-a53e-4831c2e2bc54	RangeError: express-jwt: `secret` is a required option	GET	/api/protected	undefined
+20231229	16:31:06	709f1832-924d-4aac-8bd7-8599b9c55a0c	UnauthorizedError: invalid signature	GET	/api/protected	undefined
+20231229	16:31:08	203131be-113f-4b12-ad9c-53e7cdfa10e3	UnauthorizedError: invalid signature	GET	/api/protected	undefined
+20231229	16:52:19	ff225c69-32fc-481e-a46e-ef413f96728a	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	16:52:20	461a6cd5-c099-4472-ac55-a505a6e0f423	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	16:58:29	e66802d8-43e1-4c9e-8307-0d20c184b60d	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	17:03:49	a8eb29bf-482e-4401-835b-bd93df24afc7	UnauthorizedError: No authorization token was found	GET	/statistics/activity/655259e3d75d3e014d3d30f0/competency/CL/level/n1/term/1	undefined
+20231229	17:03:50	96468be0-dfc1-4dcc-b92e-f87ef7d2f674	UnauthorizedError: No authorization token was found	GET	/statistics/activity/655259e3d75d3e014d3d30f0/competency/CL/level/n1/term/1	undefined
+20231229	17:21:40	975760b2-efc6-4686-b2cc-3da5bfd31a4e	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	17:21:43	1697fa46-eef3-4228-abbb-9482c279c63a	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	17:40:32	0c3457cc-d9ef-4216-95ea-3f6c63e2e242	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	17:42:20	f825a589-2220-4555-98e0-6897ee36795f	UnauthorizedError: invalid signature	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	18:02:37	17a9253e-122d-45ba-9f3e-590e45f31847	ReferenceError: jwt is not defined	GET	/activities/course/655199f48735bdd14a9b0544/term/1	undefined
+20231229	18:13:49	e9f56ef7-ec49-4618-88ce-0abae84bb356	UnauthorizedError: invalid token	GET	/api/protected	undefined
+20240104	23:38:15	9f7c7d86-a611-47b0-9437-efb8ba99ea6f	ReferenceError: rq is not defined	GET	/users	undefined
+20240104	23:38:40	3dab443d-778f-4c53-9648-0a24be095ed5	TokenExpiredError: jwt expired	GET	/users	undefined
+20240104	23:40:43	e02b75c5-8c15-449c-b2d2-57be37895e16	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20240104	23:42:03	0d531cf4-cb8a-44f6-9617-eace86aadaf2	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20240104	23:43:45	27a4b214-7760-4a50-bc03-6961d7a23eec	TokenExpiredError: jwt expired	GET	/users	undefined
+20240104	23:44:12	bc55719e-cee0-4c4c-a81a-d82408fdfa19	TokenExpiredError: jwt expired	GET	/users	undefined
+20240104	23:46:02	7b4333ac-bb3c-49c2-b07a-f808c39333b9	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20240104	23:46:48	b2210399-5064-4902-846d-5dba3c8bda16	Error: The user belongin to this token no longer exists	GET	/users	undefined
+20240105	22:57:58	4119c54c-5f38-429d-bb3d-6da857df82c7	TypeError: Cannot read properties of undefined (reading 'id')	POST	/signUpAdditionalInfo	undefined
+20240118	21:31:39	19764a3d-4cbd-453f-9515-811d983da8f5	Error: Cannot set headers after they are sent to the client	GET	/teacher/6551829dac5381dc7c8ddcf0	undefined
+20240118	21:35:59	6ecc5c78-483b-4d4c-bd94-fa88e83f97b0	Error: Cannot set headers after they are sent to the client	GET	/teacher/6551829dac5381dc7c8ddcf0	undefined
+20240118	21:38:59	f66c4cdb-f096-4bbf-af5e-695c58c8d405	Error: Cannot set headers after they are sent to the client	GET	/teacher/6551829dac5381dc7c8ddcf0	undefined
+20240225	10:37:25	4b0b7e41-8978-453e-9c53-df38fd7f007d	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/655199f48735bdd14a9b0544/group/65524827da6d9572f2505e09/competency/CL/level/n1/term/1/average	undefined
+20240226	22:30:50	08d9684a-1941-4209-8a2f-181d4e3fd200	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/655199f48735bdd14a9b0544/group/65524827da6d9572f2505e09/competency/CL/level/n1/term/1/average	undefined
+20240227	09:58:37	63e050ee-37ca-40a2-80f1-3e812cfc4029	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/655199f48735bdd14a9b0544/group/65524827da6d9572f2505e09/competency/CL/level/n1/term/1/average	undefined
+20240228	15:05:05	a38be9df-3800-45ad-bbda-c96468b209ad	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/655199f48735bdd14a9b0544/group/65524827da6d9572f2505e09/competency/CL/level/n1/term/1/average	undefined
+20240228	15:05:33	6686f9b9-da46-495e-9bce-ec948a281085	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/655199f48735bdd14a9b0544/group/65524827da6d9572f2505e09/competency/CL/level/n1/term/1/average	undefined
+20240228	15:11:31	aeab257b-858c-4bee-bf51-1fee9e40aa84	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/655199f48735bdd14a9b0544/group/65524827da6d9572f2505e09/competency/CL/level/n1/term/1/average	undefined
+20240228	15:54:02	41fbf982-b6f8-4244-8cd7-0dc8c4e0f4ac	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	15:54:14	6a253afa-f0d5-4ca6-bcc9-bab6324e8a4b	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	15:54:39	5d1e6817-cd89-4db7-93e9-8b579a04fb12	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/PRC/level/n1/term/1/average	undefined
+20240228	15:54:54	13f57992-042b-4230-b771-0778012626de	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/UTF/level/n1/term/1/average	undefined
+20240228	15:55:59	12c8c1d9-a321-4ad9-b357-373a4ad47358	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	15:56:17	36b1b86d-bd32-4276-a598-82d253b5edf4	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	15:59:05	10374f56-1986-4aed-a3a2-76421d3649cd	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	15:59:21	4efb041e-4400-40aa-b50b-a491fec4d339	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	15:59:25	a439a71c-63ba-4f08-8a2e-cfe9b3e9069f	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	16:00:50	7468cec1-01cc-4b2b-9c5b-833888d97128	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	16:02:58	19c52358-09fa-4c45-9112-8e5aeb3efc95	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	16:08:54	7fe50009-95cd-4b84-aa83-76af3a162a94	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	16:08:59	a18be3f6-3820-4f89-aff4-f22e222511d4	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240228	16:10:38	d7a10a0e-541d-4775-9950-3b9b08b67a9e	ReferenceError: ValidationError is not defined	GET	/statistics/teacher/6551829dac5381dc7c8ddcf0/course/65518aa77ea5a0a1039ed303/group/65524ae5da6d9572f2505e2f/competency/CLF/level/n1/term/1/average	undefined
+20240326	10:36:21	b4be8779-c215-4cc7-9a2f-867aa8e97acc	Error: Cannot set headers after they are sent to the client	GET	/grades/topGrades/courseId/65518aa77ea5a0a1039ed303	undefined
+20240427	11:15:05	48371cbd-a7d8-46b7-b09a-14c354dd709d	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/662d1e5164666c6882623fbe	undefined
+20240427	14:35:18	3ec587de-d1cb-434d-a10e-edef4041ca14	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/662d1e5164666c6882623fbe	undefined
+20240427	14:35:19	58e5affa-dea8-4145-b7b5-c834cc0ec8ba	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/662d1e5164666c6882623fbe	undefined
+20240501	08:41:09	fe64f757-b747-4388-b078-40db4792e11d	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6550dd3b7039376321866844	http://localhost:5173
+20240501	08:41:21	0c00e9c5-edfc-4926-8213-81dc898e5974	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6550dd3b7039376321866844	http://localhost:5173
+20240501	08:41:48	34f29776-cd43-4be1-bbc3-6a4ac7f9758c	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/65518224ac5381dc7c8ddced	http://localhost:5173
+20240501	08:41:56	bc72ca62-f493-4cbd-844d-d0cbc25f555c	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6550dd2f7039376321866841	http://localhost:5173
+20240501	08:42:13	43c51a02-2513-430c-8553-65580c4e5bd9	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6562896f116e8f8c7b11a7d6	http://localhost:5173
+20240501	09:04:03	b51f1f71-bf82-4e60-ac0f-2485c14efe5e	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6585014756db40656b1e7c8c	http://localhost:5173
+20240501	09:40:16	6db14e0b-fc88-4da1-8717-a9240b3b293c	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/65628978116e8f8c7b11a7dc	http://localhost:5173
+20240501	09:40:22	b26c3519-04fb-4b2f-93e6-ee344d48fb63	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/65628978116e8f8c7b11a7dc	http://localhost:5173
+20240502	08:50:59	2b306f4f-da74-44e0-9571-497eb704d2af	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6550dd4b703937632186684a	http://localhost:5173
+20240502	08:56:26	c0f20be7-5687-4e24-acbd-7465280bd8eb	Error: Cannot set headers after they are sent to the client	GET	/grades/studentGradesFullAnalysis/studentId/6550dd437039376321866847	http://localhost:5173
+20240527	17:40:45	003a7dd2-b0fb-47bc-b33c-ddd455434346	SyntaxError: Unexpected end of JSON input	PUT	/workshop/enterGrades/665507b20c2e6f839573b2a5/teams/665507ba0c2e6f839573b2a8/grades	undefined
+20240527	17:43:43	8379cc76-2230-4260-873c-281782fd0d9a	SyntaxError: Unexpected token ] in JSON at position 2328	PUT	/workshop/enterGrades/665507b20c2e6f839573b2a5/teams/665507ba0c2e6f839573b2a8/grades	undefined
+20240613	15:20:54	4983ba60-a2ea-4f73-9038-144cd0686123	SyntaxError: Unexpected token } in JSON at position 320	PUT	/workshop/create-update-teacher-rubric	undefined
+20240613	15:22:51	f1a3227d-3177-4e67-aff1-825f2ab16277	SyntaxError: Unexpected token } in JSON at position 325	PUT	/workshop/create-update-teacher-rubric	undefined
+20240613	15:23:48	05b294bd-fa65-42b9-9f66-afddc95f7604	SyntaxError: Unexpected token } in JSON at position 325	PUT	/workshop/create-update-teacher-rubric	undefined
+20240613	15:30:30	1ef3396d-969b-4194-87e7-ce0ff642ee9d	SyntaxError: Unexpected token } in JSON at position 325	PUT	/workshop/create-update-teacher-rubric	undefined

@@ -1,0 +1,22 @@
+{
+    "admin": {
+      "subject": "manage",
+      "action": "all"
+    },
+    "student": {
+      "subject": ["Grades"],
+      "action": ["consult"]
+    },
+    "teacher": {
+      "subject": ["Grades"],
+      "action": ["read", "write","update"]
+    },
+    "coordinator": {
+      "subject": ["Statistics"],
+      "action": ["read"]
+    },
+    "director": {
+      "subject": ["Statistics"],
+      "action": ["read"]
+    }
+  }

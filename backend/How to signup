@@ -1,0 +1,94 @@
+Signup:
+Here we create a new user thta can be a student (default), a teacher or an admin.
+For student: you should provide the following information
+{
+    "username":"Student_02",
+    "password": "123456",
+    "passwordConfirm":"123456",
+    "email":"student_02@hotmail.com",
+    "roles":["student"],
+    "labSubject":"LabPhys_02",
+    "labGroupNumber":"02",
+     "teoSubject":"TeoPhys_02",
+    "teoGroupNumber":"02"
+}
+
+For teacher you should provide the following information
+{
+    "username":"Teacher_02",
+    "password": "123456",
+    "passwordConfirm":"123456",
+    "email":"teacher_02@hotmail.com",
+    "roles":["teacher"],
+}
+
+For admin you should provide the following information
+{
+    "username":"Admin",
+    "password": "123456",
+    "passwordConfirm":"123456",
+    "email":"student_02@hotmail.com",
+    "roles":["admin"],
+}
+Warning: for teacher or admin we can also have the next piece of info , but IT IS IGNORED
+
+    "labSubject":"LabPhys_02",
+    "labGroupNumber":"02",
+     "teoSubject":"TeoPhys_02",
+    "teoGroupNumber":"02"
+
+That means that for teacher or admin registration we can also have either:
+{
+    "username":"Teacher_02",
+    "password": "123456",
+    "passwordConfirm":"123456",
+    "email":"teacher_02@hotmail.com",
+    "roles":["teacher"],
+ "labSubject":"LabPhys_02",
+    "labGroupNumber":"02",
+     "teoSubject":"TeoPhys_02",
+    "teoGroupNumber":"02"
+}
+or
+{
+    "username":"Admin",
+    "password": "123456",
+    "passwordConfirm":"123456",
+    "email":"student_02@hotmail.com",
+    "roles":["admin"],
+ "labSubject":"LabPhys_02",
+    "labGroupNumber":"02",
+     "teoSubject":"TeoPhys_02",
+    "teoGroupNumber":"02"
+}
+without having any problem.
+
+Why to bother with all this?
+0) To make easy the creation of a user other than student when using Postman. It is annoying to have to delete some fields all the time. However, from the frontend you should leave out them
+1) When somebody signs up we do not know the type of user, it could be a student, a teacher of admin.
+In case of a student we need not only create the student user but also  the student grades! and to that end  "labSubject", "labGroupNumber", "teoSubject" and "teoGroupNumber" it is required.
+For a user other than student "labSubject", "labGroupNumber", "teoSubject" and "teoGroupNumber" is not required!.
+2) In the database the fields "labSubject", "labGroupNumber", "teoSubject" and "teoGroupNumber" are not defined! They are just necessary to create the student grades.
+In another words: Regardless of the type of user you have, the same information is used to create it. IT IS IMPORTANT TO SPECIFY THE ROLE: student, teacher or admin
+
+Course
+Here we create a new course (this task is done by the administer)
+Info required:
+{
+    "teacher": "649861bf089fda9a0788f759",
+    "subject":"TeoPhys_02",
+    "groupNumber":"06"
+}
+The possible subjects are: 
+TheoPhys_01 (Mechanics), 
+TheoPhys_02 (Electromagnetism), 
+TheoPhys_03 (Thermo and waves), 
+LabPhys_01 (Lab ofMechanics), 
+LabPhys_02 (Lab ofElectromagnetism), 
+LabPhys_03 (Lab of Thermo and waves),
+subject and groupNumber are of type string
+
+The value of teacher is the _id of the teacher user in the mongodB database. It is clear that in order to create a course the user must be created first.
+
+
+

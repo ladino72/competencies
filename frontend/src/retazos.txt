@@ -1,0 +1,8 @@
+<div className='flex justify-between'>
+                <DropdownMenu />
+                <div className="p-2 text-center">
+                    <Tooltip text="This is a tooltip obtained from chatGPT.">
+                        <button>Hover me for a tooltip</button>
+                    </Tooltip>
+                </div>
+            </div>
