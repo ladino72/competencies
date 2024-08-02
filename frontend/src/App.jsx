@@ -14,8 +14,7 @@ import Director from './assets/pages/Director'
 import LaySignUpLogin from './assets/components/LaySignUpLogIn '
 import HomePage from './assets/components/HomePage'
 
-import InputGrades from "./assets/pages/InputGrades"
-import StudentData from './assets/components/StudentData'
+
 import Admin from './assets/pages/Admin'
 
 
@@ -141,8 +140,6 @@ function App() {
                         <Route path="teacher/*" element={<LayoutTeacher />}>
                             <Route index element={<HomeTeacher />} />
 
-                            <Route path="inputgrades" element={<InputGrades />} />
-                            <Route path="studentdata" element={<StudentData />} />
                             {/* <Route path="ingresarNotas" element={<InputNotas />} /> */}
                             <Route path="updateGrades" element={<UpdateGrades />} />
                             <Route path="deleteActivityGrades" element={<DeleteActivityGrades />} />
