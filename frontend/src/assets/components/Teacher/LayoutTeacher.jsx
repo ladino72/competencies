@@ -24,8 +24,6 @@ function LayoutTeacher() {
                     <li className="mr-6 mb-3">
                         <Link className={isActive('Digitar Notas de taller')} onClick={() => handleLinkClick('Digitar Notas de taller')} to={"/teacher/groupActivities"}> Actividades grupales (Talleres)  </Link>
                     </li>
-
-
                 </ul>
             </div>
             <div className=' min-w-full px-2 -mt-6'>
