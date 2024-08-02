@@ -94,7 +94,6 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
-                        {/* <Route path="student" element={<Student />} /> */}
 
                         <Route path="coordinator/*" element={<LayoutCoordinator />}>
                             <Route index element={<HomeCoordinator />} />
