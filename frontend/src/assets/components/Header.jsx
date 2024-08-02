@@ -8,8 +8,8 @@ function Header() {
 
     const links = [
         { name: 'Inicio', link: '/' },
-        { name: 'Estudiante', link: '/student' },
-        { name: 'Estudiante_', link: '/estudiante' },
+        // { name: 'Estudiante', link: '/student' },
+        { name: 'Estudiante', link: '/estudiante' },
         { name: 'Profesor', link: '/teacher' },
         { name: 'Coordinador', link: '/coordinator' },
         { name: 'Director', link: '/director' },

@@ -10,7 +10,7 @@ import Home from './assets/pages/Home'
 import NoPage from './assets/pages/NoPage'
 import Teacher from './assets/pages/Teacher'
 import Director from './assets/pages/Director'
-import Student from './assets/pages/Student_original'
+//import Student from './assets/pages/Student_original'
 import LaySignUpLogin from './assets/components/LaySignUpLogIn '
 import HomePage from './assets/components/HomePage'
 
@@ -94,7 +94,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
-                        <Route path="student" element={<Student />} />
+                        {/* <Route path="student" element={<Student />} /> */}
 
                         <Route path="coordinator/*" element={<LayoutCoordinator />}>
                             <Route index element={<HomeCoordinator />} />
