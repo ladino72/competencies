@@ -1,14 +1,14 @@
+
 import React, { useState } from 'react';
 import * as XLSX from 'xlsx';
-import api from "../../../../utils/AxiosInterceptos/interceptors"
-
+import api from "../../../../utils/AxiosInterceptos/interceptors";
+import { toast } from 'react-toastify';
 
 const LoadUsersToDatabase = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [jsonData, setJsonData] = useState(null);
     const [repeatedEmails, setRepeatedEmails] = useState([]);
     const [token] = useState(localStorage.getItem('token'));
-
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
@@ -38,22 +38,31 @@ const LoadUsersToDatabase = () => {
                 return;
             }
 
-            // Convert data to desired format and remove duplicates
+            // Convert data to desired format and remove duplicates based on email
             const uniqueData = jsonData.reduce((acc, current, index) => {
                 if (index === 0) return acc; // Skip header row
-                const x = acc.find(item => item.email === current[0] || item.studentId === current[1]);
-                if (!x) {
-                    return acc.concat([{ email: current[0], studentId: current[1] }]);
+
+                // Safely extract email and studentId
+                const email = current[0] != null ? String(current[0]).trim() : '';
+                const studentId = current[1] != null ? String(current[1]).trim() : '';
+
+                // Ensure both email and studentId are present and not empty
+                if (email && studentId) {
+                    const existing = acc.find(item => item.email === email);
+                    if (!existing) {
+                        acc.push({ email, studentId });
+                    }
                 } else {
-                    return acc;
+                    toast.error(`Missing or invalid email or studentId for row ${index + 1}`);
                 }
+
+                return acc;
             }, []);
 
             setJsonData(uniqueData);
 
             // Send unique data to backend to check for existing users
             try {
-
                 const response = await api.post('http://localhost:3500/userRef/createUsers',
                     { users: uniqueData },
                     { headers: { Authorization: `Bearer ${token}` } }
@@ -99,6 +108,10 @@ const LoadUsersToDatabase = () => {
 };
 
 export default LoadUsersToDatabase;
+
+
+
+
 
 {/** SUMMARY
     This code provides a solution for converting an Excel file containing student information into JSON format, verifying and filtering the data to ensure only unique users are processed, and then sending this data to a backend server to create new users in a database while skipping already existing users. It also displays the list of repeated emails that are already in the database to the frontend.
