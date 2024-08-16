@@ -11,8 +11,8 @@ const LoadUsersToDatabase = () => {
     const [isConverting, setIsConverting] = useState(false);
     const [token] = useState(localStorage.getItem('token'));
 
-    const CHUNK_SIZE = 5; // Define the size of each chunk
-    const DELAY = 1000; // Define the delay between chunks in milliseconds
+    const CHUNK_SIZE = 10; // Define the size of each chunk
+    const DELAY = 500; // Define the delay between chunks in milliseconds
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];

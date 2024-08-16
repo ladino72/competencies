@@ -290,7 +290,7 @@ const SignUpN = () => {
                                 </label>
                             </div>
 
-                            <div className="flex justify-between w-full mt-4">
+                            <div className="flex justify-between w-full mt-4 mb-2">
                                 <button
                                     type="button"
                                     onClick={() => resetForm()}

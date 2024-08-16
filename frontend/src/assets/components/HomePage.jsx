@@ -8,7 +8,7 @@ function HomePage() {
 
     return (
         <div className="flex justify-center items-center flex-col md:flex-row mx-auto w-full my-auto h-full divide-x-4">
-            <div className="w-full text-center">
+            <div className="w-full md:w-1/2 text-center px-4 md:px-8">
                 <span className="block font-bold text-4xl">Competencias</span>
                 <p className="text-xs mt-1 px-6 text-gray-500 tracking-tighter">
                     Una competencia se define como la capacidad de responder a demandas complejas y llevar a cabo tareas diversas de forma adecuada. Supone una combinación de habilidades prácticas, conocimientos, motivación, valores éticos, actitudes, emociones y otros componentes sociales y de comportamiento que se movilizan conjuntamente para lograr una acción eficaz.{' '}
@@ -29,7 +29,7 @@ function HomePage() {
                     Si ya se registró inicie una sesión. De lo contrario regístrese.
                 </div>
             </div>
-            <div className="w-full flex justify-center items-center">
+            <div className="w-full md:w-1/2 flex justify-center items-center">
                 {signUpLogin === 'signup' ? <SignUp /> : <Login />}
             </div>
         </div>

@@ -102,7 +102,7 @@ const LoginN = () => {
     return (
         <div className='w-full'>
             <div className="max-w-lg mx-auto mt-8 px-4">
-                <h1 className="text-2xl font-bold mb-4">Login</h1>
+                <h1 className="text-2xl font-bold mb-2">Login</h1>
 
 
                 <Formik
