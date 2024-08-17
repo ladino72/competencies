@@ -18,7 +18,10 @@ const UserSchema = new Schema({
     type: String,
     required: true
   }, // Password for the user
-
+  mfaSecret: {
+    type: String,
+    default: null,
+},
   roles: {
     type: [String],
     enum: ["student", "teacher", "coordinator", "admin","director"],

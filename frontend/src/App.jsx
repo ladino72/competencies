@@ -82,6 +82,8 @@ import StudentsGetTheirWorkShopGrades from './assets/components/Student/StudentW
 import TeacherCompetencies from './assets/components/Teacher/CompetencyActivities/TeacherCompetencies/TeacherCompetencies'
 import StudentCompetencyGrades from './assets/components/Teacher/CompetencyActivities/StudentGrades/StudentCompetencyGrades'
 
+import EnableMFA from './assets/components/MultiFactorAuthentication/EnableMFA'
+
 
 
 
@@ -174,6 +176,7 @@ function App() {
                         <Route index element={<HomePage />} />
                         <Route path="signupN" element={<SignUpN />} />
                         <Route path="loginN" element={<LoginN />} />
+                        <Route path="mfa" element={<EnableMFA />} />
                     </Route>
                 </Routes>
             </AccessProvider>

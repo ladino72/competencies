@@ -93,6 +93,7 @@ app.use('/groups', require('./routes/groupRoutes'))         //This route is prot
 app.use('/teacher', require('./routes/teacherRoutes'))         //This route is protected. 
 
 app.use('/workshop', require('./routes/workshopRoutes'))         //This route is protected. 
+app.use('/mfa', require('./routes/mfaRoutes'))         //This route is protected. 
 
 
 app.use((req, res, next) => {

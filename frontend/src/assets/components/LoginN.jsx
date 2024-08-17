@@ -78,7 +78,9 @@ const LoginN = () => {
 
 
                     // Redirect to dashboard or any other route after successful login
-                    navigate('/');
+                    //navigate('/');
+                    navigate('/phys/mfa');
+
                 }
                 else {
                     toast.error('Unauthorized access');
