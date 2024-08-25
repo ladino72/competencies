@@ -9,6 +9,9 @@ import CustomTextInput from './SignupComponents/CustomTextInput';
 import CustomPasswordInput from "./SignupComponents/CustomPasswordInput";
 import AdditionalInfoCollection from "./AdditionalInfoCollection";
 import api from "../../utils/AxiosInterceptos/interceptors";
+import Tooltip from './Tooltip';
+import { AiOutlineInfoCircle } from 'react-icons/ai'; // Import the info icon
+
 
 const optionsGenre = [
     { value: 'male', label: 'Hombre' },
@@ -207,8 +210,12 @@ const SignUpN = () => {
 
     return (
         <div className="max-w-lg mx-auto mt-8 px-2">
-            <h1 className="text-2xl font-bold mb-4">Registrarse</h1>
-
+            <div className="flex items-center mb-4">
+                <h1 className="text-2xl font-bold">Registrarse</h1>
+                <Tooltip text="Para registrarse, utilice su correo institucional. Puede usar una contraseña distinta a la del correo.">
+                    <AiOutlineInfoCircle className="ml-2 text-blue-500" />
+                </Tooltip>
+            </div>
             {warning_message && (
                 <p className={`text-sm ${reg === 2 ? 'text-blue-500' : 'text-red-500'}`}>
                     {warning_message}

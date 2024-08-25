@@ -24,7 +24,7 @@ const enableMFAgenerateQR = async (req, res) => {
         // Find the user by ID
         const user = await User.findById(userId);
         if (!user) {
-            return res.status(404).json({ errors: [{ msg: 'User not found' }] });
+            return res.status(404).json({ errors: [{ msg: 'Usuario no encontrado' }] });
         }
 
         // Generate a secret key
@@ -37,7 +37,7 @@ const enableMFAgenerateQR = async (req, res) => {
         // Generate a QR code for Google Authenticator
         qrcode.toDataURL(secret.otpauth_url, (err, data_url) => {
             if (err) {
-                return res.status(500).json({ errors: [{ msg: 'Failed to generate QR code' }] });
+                return res.status(500).json({ errors: [{ msg: 'Error al generar el código QR' }] });
             }
 
             // Send the QR code data_url to the frontend
@@ -62,7 +62,7 @@ const veryfyMFAcode = async (req, res) => {
         // Find the user by ID
         const user = await User.findById(userId);
         if (!user) {
-            return res.status(404).json({ errors: [{ msg: 'User not found' }] });
+            return res.status(404).json({ errors: [{ msg: 'Usuario no encontrado' }] });
         }
 
         // Verify the auth code using the stored MFA secret
@@ -75,7 +75,7 @@ const veryfyMFAcode = async (req, res) => {
         
 
         if (!isVerified) {
-            return res.status(400).json({ errors: [{ msg: 'Invalid or expired authentication code' }] });
+            return res.status(400).json({ errors: [{ msg: 'Código de autenticación no válido o caducado' }] });
         }
 
         // If verification is successful

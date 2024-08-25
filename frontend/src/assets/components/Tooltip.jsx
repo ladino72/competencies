@@ -28,7 +28,7 @@ const Tooltip = ({ text, children }) => {
         {children}
         {isVisible && (
           <div
-            className="absolute -top-16 -right-0 p-2 bg-red-400 text-white rounded text-sm w-54 font-semibold font-roboto" // Adjusted positioning
+            className="absolute left-full top-1/2 transform -translate-x-2 -translate-y-1/2 p-2 bg-red-400 text-white rounded text-sm w-72 font-semibold font-roboto"
           >
             {text}
           </div>
